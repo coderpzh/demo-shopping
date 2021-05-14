@@ -1,0 +1,85 @@
+/*内容头部样式*/
+.content_two{width: 100%;margin-top:20px;overflow: hidden;}
+
+.two_left{float: left;}
+
+.two_left span{font-size: 20px;color: #666;float: right;margin-top:30px;
+margin-left:10px;
+}
+
+.two_right{float: right;padding-top:10px;}
+
+.two_right li{float: left;font-size: 14px;border-right: 1px solid #ddd;
+padding: 0 10px;color: #666;
+}
+
+.two_right li:hover{color:#2bb8aa;}
+
+.two_right li:last-child{border: none;}
+
+/*--------------------------------------------------------------------*/
+/*内容图片样式*/
+.two_content{display: block;margin-top:10px;display: inline-block;}
+
+.two_content li{padding:15px;border:1px solid #eee;float: left;}
+
+.two_content img{width: 260px;height: 174px;margin-bottom: 10px;}
+
+.two_t1{color:#333;font-size:14px;font-weight:700;height:24px;
+line-height:24px;
+}
+
+.two_t2{color: #666;font-size:14px;height:24px;line-height:24px;}
+
+.two_t2:hover{color: #333;}
+
+.two_t3{color: #666;font-size:12px;line-height:32px;float:right;}
+
+.two_text{border-bottom: 1px solid #eee;padding-bottom: 10px;}
+
+.two_text span:first-child{font-size:20px;color:#f76120;}
+
+.two_text span:nth-child(n+2){font-size:12px;color:#999;}
+
+.two_text span:nth-child(3){text-decoration:line-through;}
+
+.two_text span:nth-child(4){float: right;margin-top:7px;}
+
+/*--------------------------------------------------------------------*/
+/*星星图标*/
+.star1{width: 60px;height: 12px;line-height: 12px;display: inline-block;
+background-image:url(../img/star.png);background-repeat: repeat-x;
+margin-right:5px;
+}
+
+.star2{width:86%;background-image:url(../img/star2.png);
+background-repeat: repeat-x;display: inline-block;
+height: 12px;line-height: 12px;
+}
+
+/*--------------------------------------------------------------------*/
+/*边框样式*/
+.two_content li:nth-child(-n+2){border-bottom: none;}
+
+.two_content li{border-right: none;}
+
+.two_content li:nth-child(4){border-right: 1px solid #eee;}
+
+.two_content li:nth-child(6){border-right: 1px solid #eee;}
+
+/*--------------------------------------------------------------------*/
+/*内容底部样式*/
+.two_bottom{height: 48px;line-height: 48px;text-align: center;
+background: #f6f6f6;margin-top: -5px;
+}
+
+.two_bottom a{font-size: 14px;color: #666;}
+
+.two_bottom a:hover{color:#2bb8aa;}
+
+/*--------------------------------------------------------------------*/
+.hot_img{width: 20px;height: 20px;padding-right: 5px;}
+
+#hot_text{padding:0;margin:0;}
+
+.two_content .hot_content{border: 1px solid #eee;}

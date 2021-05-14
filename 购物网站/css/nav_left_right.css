@@ -1,0 +1,46 @@
+.left_nav{position: fixed;top:50%;left:10px;background: #fff;
+border: 1px solid #eee;
+}
+
+.left_nav li{text-align: center;font-size: 12px;width:30px;
+padding:10px 5px;border-bottom: 1px solid #eee;
+}
+
+.left_nav li:last-child{border-bottom: none;}
+
+.left_nav i{display: block;color:#999;font-size:20px;}
+
+.left_nav a{color:#999;font-size:12px;line-height: 12px;}
+
+.left_nav li:hover{background:#f90;}
+
+.left_nav li:hover a{color:#fff;}
+
+.left_nav li:hover i{color:#fff;}
+
+/*----------------------------------------------------------------------*/
+.right_nav{position:fixed;right:10px;bottom:30px;display: inline-block;
+background: #fff;border: 1px solid #eee;
+}
+
+.right_nav li{width: 43px;height: 43px;text-align: center;
+background: url(../img/right-fixed.png) no-repeat;
+border-bottom: 1px solid #eee;font-size: 0;
+}
+
+.right_nav span{font-size: 12px;padding:2px 5px;line-height: 18px;
+display: none;color: #fff;
+}
+
+.right_nav li:hover span{display: block;}
+
+.right_nav li:hover{background: #bbb;}
+
+.right_nav li:first-child{background-position:0 -88px;}
+
+.right_nav li:nth-child(3){background-position:0 -44px;}
+
+.right_nav li:nth-child(4){background-position:0 -132px;
+border-bottom: none;
+}
+

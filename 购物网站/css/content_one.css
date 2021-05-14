@@ -1,0 +1,74 @@
+.content_one{width:77%;display:inline-block;margin-left:18px;
+position: relative;}
+
+.one_text{border-bottom: 1px solid #eee;
+display: inline-block;width:689px;
+}
+
+.one_text li{float: left;}
+
+.one_text li a{font-size:12px;height:53px;line-height:53px;
+padding-right: 23px;color: #666;letter-spacing: 0;
+}
+
+.one_text li:first-child a{color: #999;cursor: text;}
+
+.one_text i{color:#f1463b;font-size: 16px;margin-right:3px;}
+
+.one_text .one_gd{width: 44px;height: 22px;float: right;
+margin-top: 12px;
+}
+
+.one_text .one_gd a{border: 1px solid #eee;height:100%;
+line-height: 22px;position: relative;padding:0 12px 0 5px;
+display: block;
+}
+
+.one_text .one_gd .down-arrow{top:10px;right:0px;}
+
+.one_text li:nth-child(n+2) a:hover{color:#2bb8aa;}
+
+/*-------------------------------------------------------------------*/
+.one_img{margin-top: -5px;
+border-bottom: 1px solid #eee;width:689px;
+}
+
+.one_img1{display: inline-block;padding:10px 10px 10px 0;
+border-right: 1px solid #eee;position:relative;
+}
+
+.one_img img{width: 333px;height: 232px;margin-bottom: 20px;}
+
+.one_img p a{font-size: 14px;color: #666;font-weight: 700;
+margin-bottom: 5px;display: block;}
+
+.one_img p{font-size: 12px;color: #999;}
+
+.one_img span{float: right;color: #f76120;font-size: 30px;margin-top:-40px;
+border-left: 1px dashed #eee;padding-left: 20px; 
+}
+
+.one_img2{display: inline-block;padding:10px 0px 10px 5px;
+position: relative;}
+
+.content_one .one_dazhe{position: absolute;top:15px;right:5px;
+background:url(../img/content-bg.png) no-repeat 0 -830px;
+width: 61px;height: 50px;line-height: 50px;padding-left: 12px;
+font-size: 18px;color: #fff;font-weight: 700;
+}
+
+/*-------------------------------------------------------------------*/
+.one_ad{width:199px;float: right;display: inline-block;
+position: absolute;top: 0;right:0;border-left: 1px solid #eee;
+border-right: 1px solid #eee;
+}
+
+.ad1{width: 197px;height: 158px;}
+
+.ad2{border-top: 1px solid #eee;margin-top:5px;}
+
+.ad2 img{width: 100%;}
+
+.one_ad p{font-size:24px;text-align:center;color:#666;padding:5px 0;}
+
+.one_ad span{font-size:14px;text-align:center;display:block;color: #999;}

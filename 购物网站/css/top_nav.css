@@ -1,0 +1,43 @@
+.nav{background: #f9f9f9;border-bottom:3px solid #dddddd;}
+
+.top_nav{width: 1170px;margin: 0 auto;}
+
+.top_one{float: left;}
+
+.top_two{float: right;}
+
+.top_nav li{float: left;height:30px;line-height:30px;}
+
+.top_nav li a{height: 16px;font-size: 12px;color: #666;
+padding:0 8px;position: relative;}
+
+/*--------------------------------------------------------------------*/
+/*边框样式*/
+.top_one li:last-child a{border-right:1px solid #ddd;}
+
+.top_two li a{border-right:1px solid #ddd;padding-right:20px;}
+
+.top_two li:first-child a{border: none;padding-right:8px;}
+
+.top_two li:last-child a{border: none;padding-right:20px;}
+
+/*--------------------------------------------------------------------*/
+/*收藏样式*/
+.scsn a i{font-family: 'icomoon' !important;padding-right: 3px;}
+
+.scsn:hover .icon-collect::before{content: "\e91a";color: #f76120;}
+/*--------------------------------------------------------------------*/
+/*登录样式*/
+.top_one li:nth-child(2) a{color: #f76120;}
+
+.top_one li:nth-child(2) a:hover{text-decoration: underline;}
+/*--------------------------------------------------------------------*/
+/*注册样式*/
+.top_one li:last-child a:hover{text-decoration: underline;}
+
+/*--------------------------------------------------------------------*/
+.top_two li a:hover{color: #826be1;}
+
+.top_two li a:hover .down-arrow{transform: rotateX(180deg);
+transform-origin: center 25%;border-top-color: #826be1;
+}

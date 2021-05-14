@@ -1,0 +1,54 @@
+.header{width: 1170px;margin:0 auto;display:flex;
+justify-content: space-between;
+}
+
+.header_left img{width: 200px;height: 100px;}
+
+.left_text{float:right;padding-left:10px;margin-top:30px;margin-right:50px;}
+
+.left_text p:first-child{font-size:18px;font-weight:700;margin-bottom:5px;}
+
+.left_text p:last-child{font-size:12px;color:#666666;
+border: 1px solid #ccc;padding: 0 5px;
+}
+/*-----------------------------------------------------------*/
+.header_search{margin-top:20px;}
+
+.header_search span{width: 65px;height:42px;font-size: 14px;
+border: 2px solid #f90;color: #666;
+border-right: none;position: relative;display: inline-block;
+text-align: center;line-height: 42px;
+}
+
+.header_search .down-arrow{top:18px;right:8px;}
+
+.header_search span:hover .down-arrow{transform: rotateX(180deg);
+transform-origin: center 25%;border-top-color: #f90;}
+
+.h_seach{width: 358px;height:42px;border: 2px solid #f90;
+margin-left: -5px;border-left: 1px solid #ccc;padding-left: 5px;
+border-right: none;
+}
+
+.h_btn{width: 65px;height:45px;background: #f90;
+color:#fff;margin-left: -5px;border: none;outline: none;
+}
+
+.h_text{margin-top:15px;margin-left: -8px;}
+
+.h_text li{float: left;font-size: 12px;padding: 0 10px;color:#666;}
+
+.h_text li:hover{color: #f90;text-decoration: underline;}
+
+.h_btn:hover{background:#826be1;transition: 200ms;}
+
+/*-----------------------------------------------------------*/
+.header_right{margin-top:20px;}
+
+.header_right span{float: left;text-align: center;padding: 10px;}
+
+.header_right i{font-size:24px;color: #f90;}
+
+.header_right p{font-size: 12px;color: #666;}
+
+

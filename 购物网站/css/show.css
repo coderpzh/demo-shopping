@@ -1,0 +1,21 @@
+.nav_letf{position: relative;}
+
+.content_show{width:370px;height: 438px;background:#fff;display: none;
+position: absolute;left: 244px;z-index: 5;top: 40px;padding:10px 15px;
+}
+
+.content_show li{}
+
+.content_show a{}
+
+.show1{font-size: 16px;font-weight: 500;float: left;color: #444;}
+
+.show2{font-size: 12px;font-weight:400;float: right;color: #999;}
+
+.show3{margin-top:10px;border-top: 1px solid #eee;margin-bottom:40px;}
+
+.show3 dd{display: inline-block;float: left;font-size: 12px;
+color: #444;margin-right: 18px;line-height: 24px;
+}
+
+.show_nav{margin-top: 10px;}
